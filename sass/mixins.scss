@@ -1,0 +1,16 @@
+@mixin container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $ext-padding;
+
+}
+@mixin button {
+  display: table;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  transition: all  0.5s;
+}
+

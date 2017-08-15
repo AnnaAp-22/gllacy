@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе. «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Глейси</title>
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body class="theme">
+  <input class="theme__btn theme__btn--1" type="radio" id="btn-1" name="toggle" checked>
+  <input class="theme__btn theme__btn--2" type="radio" id="btn-2" name="toggle">
+  <input class="theme__btn theme__btn--3" type="radio" id="btn-3" name="toggle">
+  <div class="theme__wrapper">
+    <div class="theme__container">
+      <header class="main-header">
+      </header>
+      <div class="theme__slider">
+        <div class="theme__slide theme__slide--1" id="slide1">
+          <div class="theme__slide-title">Крем-брюле и пломбир с малиновым джемом</div>
+          <a class="btn-prim theme__slide-btn" href="#">Давайте оба!</a>
+        </div>
+        <div class="theme__slide theme__slide--2" id="slide2">
+          <div class="theme__slide-title">Шоколадный пломбир и лимонный сорбет</div>
+          <a class="btn-prim theme__slide-btn" href="#">Давайте оба!</a>
+        </div>
+        <div class="theme__slide theme__slide--3" id="slide3">
+          <div class="theme__slide-title">Пломбир с помадкой и клубничный щербет</div>
+          <a class="btn-prim theme__slide-btn" href="#">Давайте оба!</a>
+        </div>
+        <div class="theme__slider-controls">
+          <label class="theme__slide-lbl theme__slide-lbl--1" for="btn-1"></label>
+          <label class="theme__slide-lbl theme__slide-lbl--2" for="btn-2"></label>
+          <label class="theme__slide-lbl theme__slide-lbl--3" for="btn-3"></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

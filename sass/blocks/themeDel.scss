@@ -1,0 +1,38 @@
+//.theme {
+//
+//}
+//body > input[type="radio"] {
+//  display: none;
+//}
+.theme__btn {
+  display: none;
+}
+.theme__slider-controls {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  z-index: 20;
+  font-size: 0;
+}
+
+.theme__slider-controls label {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+
+  vertical-align: top;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.theme__btn--1:checked ~ .theme__slider-controls label[for="btn-1"],
+.theme__btn--2:checked ~ .theme__slider-controls label[for="btn-2"],
+.theme__btn--3:checked ~ .theme__slider-controls label[for="btn-3"] {
+  background-color: #ffffff;
+}
+
+
+
