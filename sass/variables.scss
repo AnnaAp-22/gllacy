@@ -2,6 +2,7 @@ $font-family: "Roboto", "Arial", sans-serif;
 //
 $invert-base-color: #000000;
 $base-color:        #ffffff;
+$sub-base-color:    #f8f7f4;
 //$prim-color-dark:   #616161;
 //$prim-color:        #849d8f;
 //$prim-color-light:  #f9f9f9;
@@ -11,13 +12,16 @@ $base-color:        #ffffff;
 //$prim-txt-color:   #000000;
 //$second-txt-color: #444444;
 //$invert-txt-color: #ffffff;
-//$divider-color:     #ececec;
+$divider-color:     #d3d3d2;
 
 $prim-color:        #849d8f;
 $second-color:      #8996a6;
 $third-color:       #9d8b84;
+
+$prim-color-dark:   #696969;
 $prim-txt-color:   #000000;
 $second-txt-color: #444444;
+$light-txt-color:  #999999;
 $invert-txt-color: #ffffff;
 
 $accent-color:        #e74a35;
@@ -27,5 +31,11 @@ $accent-color-10:        lighten(#e74a35,10%);
 $accent-color-light-10:  lighten(#f26843,10%);
 $accent-color-dark-10:   lighten(#ac1000,10%);
 
+$accent-hov-color: #fbded7;
+$accent-act-color: #f6b5a5;
+$accent-cur-color: #d07058;
+$d:#343434;
+
 $ext-padding: 2.3%;
 $inner-padding: 2.2%;
+
