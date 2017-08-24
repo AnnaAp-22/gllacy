@@ -6,11 +6,8 @@
 }
 .theme__wrapper {
   //min-width: 940px;
-  min-height: 100vh; /* для демо */
-
   background-repeat: no-repeat;
   background-position: top center;
-
   transition: background-image 0.5s ease, background-color 0.5s ease;
 }
 
@@ -19,7 +16,6 @@
 .theme__wrapper::before,
 .theme__wrapper::after {
   content: "";
-
   visibility: hidden;
 }
 
@@ -34,15 +30,10 @@
   @include container;
 }
 
-.main-header {
-  height: 100px; /* для демо */
-
-  background-color: rgba(0, 0, 0, 0.4); /* для демо */
-  box-shadow: inset 0 0 0 4px #000000; /* для демо */
-}
 .theme__slider {
   position: relative;
-  padding-top: 270px;
+  padding-top: 276px;
+  margin-bottom: 42px;
   text-align: center;
   color: $invert-txt-color;
 }
@@ -54,7 +45,7 @@
 .theme__slide-title {
   width: 700px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 
   font-weight: 700;
   font-size: 60px;
@@ -66,7 +57,7 @@
 
 .theme__slider-controls {
   position: absolute;
-  bottom: 25px;
+  bottom: 20px;
   left: 0;
   z-index: 20;
   font-size: 0;
@@ -109,5 +100,11 @@
 .theme__btn--2:checked ~ .theme__wrapper .theme__slide-lbl--2,
 .theme__btn--3:checked ~ .theme__wrapper .theme__slide-lbl--3 {
   background-color: $base-color;
+}
+.theme__banners{
+   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 

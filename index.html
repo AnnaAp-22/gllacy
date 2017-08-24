@@ -23,7 +23,7 @@
   <div class="theme__wrapper">
     <div class="theme__container">
       <header class="page-header">
-        <h1 class="visualy-hidden">Глейси - магазин мороженого</h1> <!-- скрыт! -->
+        <h1 class="visually-hidden">Глейси - магазин мороженого</h1> <!-- скрыт! -->
         <nav class="main-nav">
           <a class="main-nav__logo">
             <img class="main-nav__logo-img" src="img/logo.svg" width="154" height="64" alt="Глейси">
@@ -56,145 +56,92 @@
               <a class="main-nav__link " href="#">О Компании</a>
             </li>
           </ul>
-          <div class="main-nav__user">
-            <section class="main-nav__unit  main-nav__unit--search">
-              <h3 class="visualy-hidden">Поиск по сайту</h3> <!-- скрыт! -->
-              <!--<a class="user-nav__link user-nav__link&#45;&#45;search" href="#">Поиск по сайту</a>-->
-              <div class="main-nav__search">
-                <svg class="main-nav__search-icon" width="17" height="17">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#loupe"></use>
-                </svg>
-              </div>
-              <form class="main-nav__search-form" action="https://echo.htmlacademy.ru">
-                <input class="main-nav__search-input" type="search" name="search" placeholder="Что ищем?" required>
-                <input class="main-nav__search-submit" type="submit" name="sub" value="">
-              </form>
-            </section>
-            <section class="main-nav__unit  main-nav__unit--login">
-              <h3 class="visualy-hidden">Вход</h3> <!-- скрыт! -->
-              <div class="main-nav__login">
-                <svg class="main-nav__login-icon" width="21" height="19">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#entrance"></use>
-                </svg>
-                <span> Вход</span>
-              </div>
-              <!--<a class="user-nav__link user-nav__link&#45;&#45;login" href="#">Войти</a>-->
-              <form class="main-nav__login-form" action="https://echo.htmlacademy.ru" method="post">
-                <input class="main-nav__login-input" type="email" name="email" placeholder="Электронная почта"
-                       required>
-                <input class="main-nav__login-input" type="password" name="pass" placeholder="Пароль" required>
-                <div class="main-nav__login-bottom ">
-                  <input class="btn-middle main-nav_login-submit " type="submit" value="Войти" name="submit_button">
-                  <div class="main-nav__login-links ">
-                    <a class="main-nav__login-link" href="#">Забыли пароль?</a>
-                    <a class="main-nav__login-link" href="#">Новая регистрация</a>
-                  </div>
-                </div>
-              </form>
-            </section>
-            <section class="main-nav__unit  main-nav__unit--cart-buy">
-              <div class="main-nav__cart">
-                <span>Пусто</span>
-              </div>
-              <!--<a class="user-nav__link user-nav__link&#45;&#45;cart" href="#">Пусто</a>-->
-              <div class="main-nav__cart-form">
-                <table class="main-nav__cart-table">
-                  <tr>
-                    <td>
-                      <button class="main-nav__cart-delete" type="button" title="Удалить"></button>
-                    </td>
-                    <td class="main-nav__cart-img">
-                      <img src="img/ice1.png" width="33" height="33" alt="orange">
-                    </td>
-                    <td class="main-nav__cart-name">Пломбир с апельсиновым джемом</td>
-                    <td class="main-nav__cart-calc">1,5 кг<span> x 200 руб.</span></td>
-                    <td class="main-nav__cart-summ">300 руб.</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <button class="main-nav__cart-delete" type="button" title="Удалить"></button>
-                    </td>
-                    <td class="main-nav__cart-img">
-                      <img src="img/ice3.png" width="33" height="33" alt="strawberry">
-                    </td>
-                    <td class="main-nav__cart-name">Клубничный пломбир с присыпкой из белого шоколада</td>
-                    <td class="main-nav__cart-calc">1,5 кг<span> x 300 руб.</span></td>
-                    <td class="main-nav__cart-summ">450 руб.</td>
-                  </tr>
-                </table>
-                <div class="main-nav__cart-footer">
-                  <p class="main-nav__cart-total">Итого: 750 руб.</p>
-                  <a class="btn-middle main-nav__cart-btn" href="#">Оформить заказ</a>
-                </div>
-              </div>
-            </section>
-
-            <!--<ul class="user-nav ">-->
-            <!--<li class="user-nav__item  user-nav__item&#45;&#45;search">-->
-            <!--<a class="user-nav__link user-nav__link&#45;&#45;search" href="#">Поиск по сайту</a>-->
-            <!--<div class="user-nav__search">-->
-            <!--<form action="https://echo.htmlacademy.ru">-->
-            <!--<input class="user-nav__search-input" type="search" name="search" placeholder="Что ищем?" required>-->
-            <!--<input class="user-nav__search-submit" type="submit" name="sub" value="">-->
-            <!--</form>-->
-            <!--</div>-->
-            <!--</li>-->
-            <!--<li class="user-nav__item  user-nav__item&#45;&#45;login">-->
-            <!--<a class="user-nav__link user-nav__link&#45;&#45;login" href="#">Войти</a>-->
-            <!--<div class="user-nav__login">-->
-            <!--<form action="https://echo.htmlacademy.ru" method="post">-->
-            <!--<input class="user-nav__login-input" type="email" name="email" placeholder="Электронная почта"-->
-            <!--required>-->
-            <!--<input class="user-nav__login-input" type="password" name="pass" placeholder="Пароль" required>-->
-            <!--<input class="btn-middle user-nav__login-submit " type="submit" value="Войти" name="submit_button">-->
-            <!--<div class="user-nav__login-links ">-->
-            <!--<a class="user-nav__login-link" href="#">Забыли пароль?</a>-->
-            <!--<a class="user-nav__login-link" href="#">Новая регистрация</a>-->
-            <!--</div>-->
-            <!--</form>-->
-            <!--</div>-->
-            <!--</li>-->
-            <!--<li class="user-nav__item  user-nav__item&#45;&#45;cart">-->
-            <!--<a class="user-nav__link user-nav__link&#45;&#45;cart" href="#">Пусто</a>-->
-            <!--<div class="user-nav__cart">-->
-            <!--<table class="user-nav__cart-table">-->
-            <!--<tr>-->
-            <!--<td>-->
-            <!--<a class="user-nav__cart-delete" title="Удалить"></a>-->
-            <!--</td>-->
-            <!--<td>-->
-            <!--<img src="img/ice1.png" width="33" height="33" alt="orange">-->
-            <!--</td>-->
-            <!--<td>Пломбир с апельсиновым джемом</td>-->
-            <!--<td>1,5 кг<span> x 200 руб.</span></td>-->
-            <!--<td>300 руб.</td>-->
-            <!--</tr>-->
-            <!--<tr>-->
-            <!--<td>-->
-            <!--<a class="user-nav__cart-delete" title="Удалить"></a>-->
-            <!--</td>-->
-            <!--<td>-->
-            <!--<img src="img/ice3.png" width="33" height="33" alt="strawberry">-->
-            <!--</td>-->
-            <!--<td>Клубничный пломбир с присыпкой из белого шоколада</td>-->
-            <!--<td>1,5 кг<span> x 300 руб.</span></td>-->
-            <!--<td>450 руб.</td>-->
-            <!--</tr>-->
-            <!--</table>-->
-            <!--<p class="user-nav__cart-total">Итого: 750 руб.</p>-->
-            <!--<a class="btn-middle user-nav__cart-btn" href="#">Оформить заказ</a>-->
-            <!--</div>-->
-            <!--</li>-->
-            <!--</ul>-->
-          </div>
         </nav>
+        <div class="user-box">
+          <section class="user-box__unit  user-box__unit--search">
+            <h3 class="visually-hidden">Поиск по сайту</h3> <!-- скрыт! -->
+            <div class="user-box__search">
+              <svg class="user-box__search-icon" width="17" height="17">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#loupe"></use>
+              </svg>
+            </div>
+            <form class="user-box__search-form" action="https://echo.htmlacademy.ru">
+              <label class="visually-hidden" for="user-box__search">Что ищем?</label>
+              <input class="user-box__search-input" type="search" id="user-box__search" name="search"
+                     placeholder="Что ищем?" required>
+              <input class="user-box__search-submit" type="submit" name="sub" value="">
+            </form>
+          </section>
+          <section class="user-box__unit  user-box__unit--login">
+            <h3 class="visually-hidden">Вход</h3> <!-- скрыт! -->
+            <div class="user-box__login">
+              <svg class="user-box__login-icon" width="21" height="19">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#entrance"></use>
+              </svg>
+              <span> Вход</span>
+            </div>
+            <form class="user-box__login-form" action="https://echo.htmlacademy.ru" method="post">
+              <label class="visually-hidden" for="user-box__email">email</label>
+              <input class="user-box__login-input" type="email" id="user-box__email" name="email"
+                     placeholder="Электронная почта"
+                     required>
+              <label class="visually-hidden" for="user-box__password">Пароль</label>
+              <input class="user-box__login-input" type="password" id="user-box__password" name="pass"
+                     placeholder="Пароль" required>
+              <div class="user-box__login-bottom ">
+                <input class="btn-middle user-box_login-submit " type="submit" value="Войти" name="submit_button">
+                <div class="user-box__login-links ">
+                  <a class="user-box__login-link" href="#">Забыли пароль?</a>
+                  <a class="user-box__login-link" href="#">Новая регистрация</a>
+                </div>
+              </div>
+            </form>
+          </section>
+          <section class="user-box__unit  user-box__unit--cart-buy">
+            <h3 class="visually-hidden">Корзина</h3> <!-- скрыт! -->
+            <div class="user-box__cart">
+              <span>Пусто</span>
+            </div>
+            <div class="user-box__cart-form">
+              <table class="user-box__cart-table">
+                <tr>
+                  <td>
+                    <button class="user-box__cart-delete" type="button" title="Удалить"></button>
+                  </td>
+                  <td class="user-box__cart-img">
+                    <img src="img/ice1.png" width="33" height="33" alt="orange">
+                  </td>
+                  <td class="user-box__cart-name">Пломбир с апельсиновым джемом</td>
+                  <td class="user-box__cart-calc">1,5 кг<span> x 200 руб.</span></td>
+                  <td class="user-box__cart-summ">300 руб.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="user-box__cart-delete" type="button" title="Удалить"></button>
+                  </td>
+                  <td class="user-box__cart-img">
+                    <img src="img/ice3.png" width="33" height="33" alt="strawberry">
+                  </td>
+                  <td class="user-box__cart-name">Клубничный пломбир с присыпкой из белого шоколада</td>
+                  <td class="user-box__cart-calc">1,5 кг<span> x 300 руб.</span></td>
+                  <td class="user-box__cart-summ">450 руб.</td>
+                </tr>
+              </table>
+              <div class="user-box__cart-footer">
+                <p class="user-box__cart-total">Итого: 750 руб.</p>
+                <a class="btn-middle user-box__cart-btn" href="#">Оформить заказ</a>
+              </div>
+            </div>
+          </section>
+        </div>
       </header>
       <main class="theme__main">
-        <div class="sub-nav">
-          <div class="sub-nav__schedule">
-            <p class="sub-nav__schedule-time">С 10 до 20, ежедневно</p>
-            <p class="sub-nav__schedule-phone">8 812 450-25-25</p>
-          </div>
+        <div class="sub-header">
+          <section class="schedule">
+            <h3 class="visually-hidden">Расписание</h3> <!-- скрыт! -->
+            <span class="schedule__time">С 10 до 20, ежедневно</span>
+            <span class="schedule__phone">8 812 450-25-25</span>
+          </section>
         </div>
         <div class="theme__slider">
           <div class="theme__slide theme__slide--1" id="slide1">
@@ -214,6 +161,20 @@
             <label class="theme__slide-lbl theme__slide-lbl--2" for="btn-2"></label>
             <label class="theme__slide-lbl theme__slide-lbl--3" for="btn-3"></label>
           </div>
+        </div>
+         <div class="theme__banners">
+          <section class="banner banner--berry">
+            <h2 class="banner__title">Малинка даром!</h2>
+            <p class="banner__text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового
+              варенья бесплатно.</p>
+            <a href="#" class="btn-middle banner__btn">Хочу варенье!</a>
+          </section>
+          <section class="banner banner--choco">
+            <h2 class="banner__title">Шоколадки даром!</h2>
+            <p class="banner__text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной
+              присыпки совершенно бесплатно.</p>
+            <a href="#" class="btn-middle banner__btn">Хочу шоколадки!</a>
+          </section>
         </div>
       </main>
     </div>
