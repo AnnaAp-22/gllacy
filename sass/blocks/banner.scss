@@ -17,13 +17,18 @@
 
 .banner__title {
   margin: 0;
+  padding:0;
+  margin-bottom: 15px;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
 }
 
 .banner__text {
-  margin-bottom:42px;
+  margin:0;
+  padding: 0;
+  min-height: 89px;
+  overflow: hidden;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;

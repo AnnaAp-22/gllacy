@@ -38,4 +38,6 @@ $d:#343434;
 
 $ext-padding: 2.3%;
 $inner-padding: 2.2%;
+$inner-padding_hf: 1.1%;
 
+$ext-padding_catalog:$ext-padding - $inner-padding_hf;
