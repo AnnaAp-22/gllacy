@@ -10,3 +10,5 @@ node_modules/
 build/
 Thumbs.db
 ex_gllacy2/
+sass/blocks/filters_select_.scss
+sass/blocks/filters_0.scss

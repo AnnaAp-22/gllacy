@@ -1,0 +1,107 @@
+.filters {
+  @include container;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  min-width: 860px;
+   margin: 0;
+  margin-top: 28px;
+  // padding: 20px 0 25px 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.filters__item{
+  padding: 0;
+  margin: 0;
+  margin-right: 15px;
+  border: none;
+
+}
+.filters__legend {
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.filters__sort-select{
+  position: relative;
+  width: 193px;
+  height: 36px;
+  padding-left: 14px;
+  padding-right:30px;
+  font: inherit;
+  background-color: rgba(255,255,255,.2);
+  color:$invert-txt-color;
+  border: none;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+.filters__sort-select::-ms-expand {
+  display: none; /* скрывает стрелку в IE10 и IE11 */
+}
+.filters__sort-select {
+  background-image: url("../img/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 168px 15px
+}
+
+.filters__sort-select:hover,
+.filters__sort-select:focus{
+  background-color:$base-color ;
+  color:$second-txt-color;
+  background-image: url("../img/select-arrow-hov.svg");
+  outline: none;
+}
+//range
+.filters__range-controls {
+  position: relative;
+  height: 36px;
+  width: 218px;
+  padding: 15px;
+  //padding-top: 39px;
+  //padding-right: 20px;
+  //padding-left: 20px;
+  //margin-bottom: 8px;
+  background-color: rgba(255,255,255,.2);
+  color:$invert-txt-color;
+  border: none;
+  border-radius: 30px;
+}
+
+.filters__scale{
+  height: 4px;
+  width: 176px;
+  margin: 0 auto;
+  background: rgba(255,255,255,.5);
+}
+
+.filters__bar {
+  width: 70%;
+  height: 4px;
+  background: $base-color;
+}
+
+.filters__toggle {
+  position: absolute;
+  top: 7px;
+  width:20px;
+  height: 20px;
+  border:8px solid $base-color;
+  border-radius: 50%;
+  cursor: pointer;
+   background: $divider-color;
+}
+
+.filters__toggle--min {
+  left: 35px;
+}
+
+.filters__toggle--max {
+  left: 132px;
+}
