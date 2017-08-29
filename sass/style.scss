@@ -4,7 +4,7 @@
 @import "global/fonts.scss";
 @import "global/base.scss";
 @import "components/buttons.scss";
-
+@import "components/links.scss";
 //@import "global/typography.scss";
 
 @import "blocks/theme.scss";
@@ -18,10 +18,15 @@
 @import "blocks/features.scss";
 @import "blocks/subscribe.scss";
 @import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/footer-nav.scss";
+
+//@import "blocks/user-box.scss";
+//@import "blocks/user-box.scss";
 //@import "blocks/user-box.scss";
 //@import "blocks/user-box.scss";
 
 
-//@import "blocks/social.scss";
+@import "blocks/social.scss";
 //@import "blocks/modal.scss";
 

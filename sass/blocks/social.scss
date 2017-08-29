@@ -1,0 +1,50 @@
+.social {
+  display: flex;
+  //justify-content: space-between;
+  align-items: flex-start;
+  width: 23.27%;
+ // margin-right: 11.5%;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  //padding-top: 24px;
+  //padding-bottom: 28px;
+
+}
+
+.social__btn {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 18px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  font-size: 0;
+  outline: none;
+  background-color: rgba(255, 255, 255,0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  &--tw {
+    background-image: url("../img/twitter.svg") ;
+  }
+  &--inst {
+    background-image: url("../img/instagram.svg") ;
+  }
+  &--fb {
+    background-image: url("../img/fb.svg");
+  }
+  &--vk {
+    background-image: url("../img/vk.svg");
+  }
+}
+.social__btn:hover,
+.social__btn:focus {
+  background-color: rgba(255, 255, 255,0.7);
+}
+.social__btn:active {
+  box-shadow:
+      0 0 0 3px rgba(255, 255, 255, 0.5),
+     inset 0 2px 1px 0 $prim-color-dark;
+}
+
+
