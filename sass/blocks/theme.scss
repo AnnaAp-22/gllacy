@@ -75,6 +75,9 @@
   border-radius: 50%;
   cursor: pointer;
 }
+.theme__slide-lbl:hover{
+  background-color:  rgba(255,255,255,.2);
+}
 
 .theme__btn--1:checked ~ .theme__wrapper .theme__slide--1,
 .theme__btn--2:checked ~ .theme__wrapper .theme__slide--2,
