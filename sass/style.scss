@@ -5,6 +5,7 @@
 @import "global/base.scss";
 @import "components/buttons.scss";
 @import "components/links.scss";
+@import "components/input-box.scss";
 //@import "global/typography.scss";
 
 @import "blocks/theme.scss";
@@ -23,9 +24,5 @@
 @import "blocks/breadcrumbs.scss";
 @import "blocks/filters.scss";
 @import "blocks/paginator.scss";
-//@import "blocks/user-box.scss";
-
-
 @import "blocks/social.scss";
-//@import "blocks/modal.scss";
-
+@import "blocks/modal.scss";

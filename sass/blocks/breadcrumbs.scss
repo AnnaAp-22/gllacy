@@ -11,10 +11,12 @@
   line-height: 16px;
   font-weight: 400;
 }
-.breadcrumbs__link{
+
+.breadcrumbs__link {
   position: relative;
- margin-right: 20px;
+  margin-right: 20px;
 }
+
 .breadcrumbs__link::after {
   content: '»';
   position: absolute;
@@ -22,7 +24,3 @@
   right: -14px;
   display: block;
 }
-
-//.breadcrumbs__lnk-current {
-//
-//}

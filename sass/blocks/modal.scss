@@ -1,0 +1,119 @@
+.modal {
+  position: absolute;
+  top: 338px;
+  left: 30%;
+  z-index: 100;
+  display: none;
+  width: 477px;
+  padding: 25px;
+  padding-top: 17px;
+  // transform: translate(-50%, -50%);
+  background-color: $sub-base-color;
+  color: $second-txt-color;
+  border-radius: 10px;
+}
+
+.modal__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 32px;
+  font-size: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.modal__close::before,
+.modal__close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  width: 2px;
+  height: 25px;
+  background-color: $prim-color-dark;
+  border-radius: 1px;
+}
+
+.modal__close::before {
+  transform: rotate(45deg);
+}
+
+.modal__close::after {
+  transform: rotate(-45deg);
+}
+
+.modal__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+
+.modal__form-input {
+  width: 267px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.modal__form-input--area {
+  width: 428px;
+  height: 155px;
+}
+
+.modal__form-btn {
+  margin-left: auto;
+}
+
+///
+.modal__content-show {
+  display: block;
+  animation-name: bounce;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.modal--nojs {
+  position: static;
+  display: block;
+}
+
+.modal--nojs .modal__close {
+  display: none;
+}

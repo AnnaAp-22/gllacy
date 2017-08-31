@@ -4,6 +4,7 @@
   padding: 0 $ext-padding;
 
 }
+
 @mixin button {
   display: table;
   white-space: nowrap;
@@ -11,6 +12,5 @@
   text-decoration: none;
   font: inherit;
   border: none;
-  transition: all  0.5s;
+  transition: all 0.5s;
 }
-

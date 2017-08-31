@@ -1,17 +1,17 @@
-.schedule{
+.schedule {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-left: auto;
 }
+
 .schedule__time {
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
 }
+
 .schedule__phone {
-  //display: block;
-  //width: auto;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;

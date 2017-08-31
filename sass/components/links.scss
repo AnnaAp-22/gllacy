@@ -1,30 +1,22 @@
 .link {
   color: $invert-txt-color;
-  //text-decoration: none;
-  //border-bottom: 1px solid $bc_link;
   transition: all 0.15s;
   &:hover, &:focus {
     color: $accent-lnk-color;
-    // border-bottom-color: $bc_link-hov;
   }
   &:active {
     color: $accent-lnk-color
-    // border-bottom-color: $bc_link-act;
   }
 }
 
 .link-inv {
   color: $second-txt-color;
-  //text-decoration: none;
-  //border-bottom: 1px solid $bc_link;
   transition: all 0.15s;
   &:hover, &:focus {
     color: $accent-lnk-invert-color;
-    // border-bottom-color: $bc_link-hov;
   }
   &:active {
     color: $accent-lnk-invert-color;
-    // border-bottom-color: $bc_link-act;
   }
 
 }

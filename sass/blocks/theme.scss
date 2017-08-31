@@ -4,8 +4,8 @@
 .theme__btn {
   display: none;
 }
+
 .theme__wrapper {
-  //min-width: 940px;
   background-repeat: no-repeat;
   background-position: top center;
   transition: background-image 0.5s ease, background-color 0.5s ease;
@@ -26,6 +26,7 @@
 .theme__wrapper::after {
   background-image: url("../img/slide3.png");
 }
+
 .theme__container {
   @include container;
 }
@@ -52,6 +53,7 @@
   font-size: 60px;
   line-height: 60px;
 }
+
 .theme__slide-btn {
   margin: 0 auto;
 }
@@ -75,8 +77,9 @@
   border-radius: 50%;
   cursor: pointer;
 }
-.theme__slide-lbl:hover{
-  background-color:  rgba(255,255,255,.2);
+
+.theme__slide-lbl:hover {
+  background-color: rgba(255, 255, 255, .2);
 }
 
 .theme__btn--1:checked ~ .theme__wrapper .theme__slide--1,
@@ -105,16 +108,16 @@
 .theme__btn--3:checked ~ .theme__wrapper .theme__slide-lbl--3 {
   background-color: $base-color;
 }
-.theme__banners{
+
+.theme__banners {
   @include container;
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 33px;
 }
-.theme__banners--news{
+
+.theme__banners--news {
   margin-bottom: 40px;
 }
-
-

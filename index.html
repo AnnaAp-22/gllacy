@@ -138,7 +138,7 @@
         </section>
       </div>
     </header>
-    <main >
+    <main>
       <div class="sub-header">
         <section class="schedule">
           <h2 class="visually-hidden">Расписание</h2> <!-- скрыт! -->
@@ -197,12 +197,12 @@
           </li>
           <li class="catalog__item catalog__item--hit">
             <div class="catalog__item-image">
-              <img src="img/ice1.png" width="267" height="267"
-                   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-              <p class="catalog__item-price">310₽<span> /кг</span></p>
+              <img src="img/ice2.png" width="267" height="267"
+                   alt="Сливочно-кофейное с кусочками шоколада">
+              <p class="catalog__item-price">380₽<span> /кг</span></p>
             </div>
             <a class="catalog__item-link" href="#">
-              <h3 class="catalog__item-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
+              <h3 class="catalog__item-title">Сливочно-кофейное с кусочками шоколада</h3>
             </a>
             <div class="catalog__item-show">
               <a class="btn-middle catalog__item-btn" href="#">Быстрый просмотр</a>
@@ -210,12 +210,12 @@
           </li>
           <li class="catalog__item catalog__item--hit">
             <div class="catalog__item-image">
-              <img src="img/ice1.png" width="267" height="267"
-                   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-              <p class="catalog__item-price">310₽<span> /кг</span></p>
+              <img src="img/ice3.png" width="267" height="267"
+                   alt="Сливочно-клубничное с присыпкой из белого шоколада">
+              <p class="catalog__item-price">355₽<span> /кг</span></p>
             </div>
             <a class="catalog__item-link" href="#">
-              <h3 class="catalog__item-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
+              <h3 class="catalog__item-title">Сливочно-клубничное с присыпкой из белого шоколада</h3>
             </a>
             <div class="catalog__item-show">
               <a class="btn-middle catalog__item-btn" href="#">Быстрый просмотр</a>
@@ -223,12 +223,12 @@
           </li>
           <li class="catalog__item catalog__item--hit">
             <div class="catalog__item-image">
-              <img src="img/ice1.png" width="267" height="267"
-                   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-              <p class="catalog__item-price">310₽<span> /кг</span></p>
+              <img src="img/ice4.png" width="267" height="267"
+                   alt="Сливочное крем-брюле с карамельной подливкой">
+              <p class="catalog__item-price">415₽<span> /кг</span></p>
             </div>
             <a class="catalog__item-link" href="#">
-              <h3 class="catalog__item-title">Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
+              <h3 class="catalog__item-title">Сливочное крем-брюле с карамельной подливкой</h3>
             </a>
             <div class="catalog__item-show">
               <a class="btn-middle catalog__item-btn" href="#">Быстрый просмотр</a>
@@ -286,6 +286,7 @@
         </section>
       </div>
       <section class="contacts" id="map">
+        <h3 class="visually-hidden">Контакты</h3>
         <div class="contacts__wrap">
           <div class="contacts__box">
             <p> Адрес главного офиса
@@ -323,7 +324,8 @@
               <svg class="footer-nav__link-icon" width="15" height="13">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart"></use>
               </svg>
-              Для поставщиков</a>
+              Для поставщиков
+            </a>
           </li>
           <li class="footer-nav__item footer-nav__item--production">
             <a href="#" class="link footer-nav__link">О производстве</a>
@@ -338,11 +340,11 @@
       </section>
       <div class="page-footer__copyright">
         <div class="page-footer__copyright-wrap">
-          <a href="https://htmlacademy.ru/intensive/htmlcss" class="class="page-footer__copyright-logo">
-          <img class="page-footer__copyright-img" src="img/logo-htmlacademy.svg" width="108" height="37"
-               alt="HTML Academy">
+          <a href="https://htmlacademy.ru/intensive/htmlcss" class="page-footer__copyright-logo">
+            <img class="page-footer__copyright-img" src="img/logo-htmlacademy.svg" width="108" height="37"
+                 alt="HTML Academy">
           </a>
-         <p class="page-footer__copyright-txt">
+          <p class="page-footer__copyright-txt">
             Сделано в
             <a class="link page-footer__copyright-lnk" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>&copy;
             2017
@@ -350,8 +352,31 @@
         </div>
       </div>
     </footer>
+    <div class="modal  modal--nojs">
+      <button class="modal__close " type="button" title="Закрыть"></button>
+      <h4 class="modal__title">Мы обязательно вам ответим!</h4>
+      <form class="modal__form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="input-box modal__form-placeholder">
+          <input class="input-box__input modal__form-input" type="text" name="name" value="" id="form__name" required>
+          <label class="input-box__lbl modal__form-lbl " for="form__name">Как вас зовут?</label>
+        </div>
+        <div class="input-box modal__form-placeholder">
+          <input class="input-box__input modal__form-input " type="email" name="email" value="" id="form__email"
+                 required>
+          <label class="input-box__lbl modal__form-lbl" for="form__email">Ваша почта для ответа?</label>
+        </div>
+        <div class="input-box modal__form-placeholder ">
+        <textarea class="input-box__input modal__form-input modal__form-input--area " rows="5" name="text"
+                  id="form__text"
+                  required></textarea>
+          <label class="input-box__lbl modal__form-lbl" for="form__text">Напишите что-нибудь...</label>
+        </div>
+        <button class="btn-middle modal__form-btn" type="submit" name="send">Отправить</button>
+      </form>
+    </div>
   </div>
   <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-  <script type="text/javascript" src="js/ymaps.js"></script>
+  <script type="text/javascript" src="js/ymaps.min.js"></script>
+  <script src="js/script.min.js"></script>
 </body>
 </html>

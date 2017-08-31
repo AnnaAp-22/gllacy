@@ -197,11 +197,9 @@
   color: $second-txt-color;
   &::before {
     background: url("../img/basket-red.svg") no-repeat;
-     }
+  }
 }
-//.user-box__unit--cart-buy:hover{
-//  opacity :0.6;
-//}
+
 .user-box__unit--cart-buy:hover .user-box__cart-form {
   display: block;
 }
@@ -232,7 +230,6 @@
 }
 
 .user-box__cart-table td {
-  // min-height: 33px;
   padding-bottom: 15px;
 }
 
@@ -256,7 +253,6 @@
 .user-box__cart-name {
   width: 225px;
   text-align: left;
-  // vertical-align: top;
 }
 
 .user-box__cart-calc {
